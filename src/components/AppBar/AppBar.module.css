@@ -1,0 +1,21 @@
+.header {
+  border-bottom: 1px solid #dedede;
+  background: #fff;
+}
+
+.inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 18px;
+  width: min(100% - 32px, 920px);
+  min-height: 64px;
+  margin: 0 auto;
+}
+
+@media (max-width: 520px) {
+  .inner {
+    flex-wrap: wrap;
+    padding: 14px 0;
+  }
+}

@@ -1,0 +1,36 @@
+.container {
+  width: min(100% - 32px, 580px);
+  margin: 48px auto 72px;
+}
+
+.title {
+  margin: 0 0 28px;
+  font-size: clamp(2.4rem, 7vw, 3.5rem);
+  font-weight: 750;
+  line-height: 1.15;
+  letter-spacing: -0.035em;
+}
+
+@media (max-width: 520px) {
+  .container {
+    margin-top: 26px;
+  }
+
+  .title {
+    margin-bottom: 22px;
+  }
+}
+
+.loading {
+  margin: 16px 0;
+  color: #555;
+}
+
+.error {
+  margin: 16px 0;
+  padding: 12px;
+  border: 1px solid #b42318;
+  border-radius: 6px;
+  color: #b42318;
+  overflow-wrap: anywhere;
+}

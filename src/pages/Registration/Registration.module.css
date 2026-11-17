@@ -1,0 +1,25 @@
+.page {
+  width: min(100% - 32px, 580px);
+  margin: 48px auto 72px;
+}
+
+.title {
+  margin: 0 0 12px;
+  color: #171717;
+  font-size: clamp(2.4rem, 7vw, 3.5rem);
+  line-height: 1.15;
+  letter-spacing: -0.035em;
+  font-weight: 750;
+}
+
+.subtitle {
+  margin: 0 0 24px;
+  color: #555;
+  line-height: 1.5;
+}
+
+@media (max-width: 520px) {
+  .page {
+    margin-top: 26px;
+  }
+}

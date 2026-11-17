@@ -1,0 +1,8 @@
+/* The page components own their width and spacing, like the HW-07 Phonebook. */
+.shell {
+  min-height: 100vh;
+}
+
+.content {
+  width: 100%;
+}
