@@ -77,8 +77,8 @@ requests back to `index.html`, so React Router deep links remain functional.
 
 ## Delivery
 
-- Repository: add your public GitHub repo URL
-- Live: add your Vercel URL
+- Repository: https://github.com/simsekzeynep/goit-react-hw-08
+- Live: https://goit-react-hw-08-blond-ten-96.vercel.app
 
 ## File convention
 
